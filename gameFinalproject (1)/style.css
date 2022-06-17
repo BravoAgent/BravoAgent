@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {background: linear-gradient(90deg, rgba(14,143,121,1) 11%, rgba(14,79,143,1) 86%);
+     
+overflow: hidden;
+z-index: -2}
+
+nav{
+  width: 98vw;
+  height: 5vh;
+  /*background: ##052623*/
+}
+
+nav a{
+text-align: center;
+vertical-align: middle;
+line-height: 5vh;  
+/*background:#03524a;*/
+padding: .5vh 5vw; 
+font-family: 'Fredoka One', cursive;
+color: black;
+}
+
+nav a:visited{
+  color: #05f0da;
+}
+
+nav a:hover{
+box-shadow: 0;
+color:red; 
+}
+
+
+.bubble{
+  height: 25%;
+  width: 25vh;
+  position: absolute;
+  animation-name: squareAnimation1; 
+  animation-duration: 10s;
+  z-index: -1; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  /*border: 5px solid red ;*/
+  background:white;
+  border-radius: 95%;
+  opacity: 0.06;
+  bottom:-1%; 
+}
+
+@keyframes squareAnimation1{
+  0% {
+    transform: translateY(25vh);
+  }
+  50%{
+    transform:translateY(-60vh);
+      margin-right: 50%
+  }
+  
+  100% {
+    transform: translateY(-120vh);
+    margin-left: 80%;
+  }
+
+}
+
+
+@keyframes squareAnimation2{
+  0% {
+    transform: translateY(25vh);
+  }
+  50%{
+    transform:translateY(-60vh);
+    margin-right: -25%;
+  }
+  
+  100% {
+    transform: translateY(-120vh);
+    margin-left: 20%;
+  }
+
+}
+
+
+@keyframes squareAnimation3{
+  0% {
+    transform: translateY(25vh);
+  }
+  50%{
+    transform:translateY(-60vh);
+    margin-left: 50%;
+  }
+  
+  100% {
+    transform: translateY(-120vh);
+    margin-left: 90%;
+  }
+
+}
+
+@keyframes squareAnimation4{
+  0% {
+    transform: translateY(25vh);
+  }
+  50%{
+    transform:translateY(-60vh);
+    margin-left: 10%;
+  }
+  
+  100% {
+    transform: translateY(-120vh);
+    margin-left: 80%;
+  }
+
+}
+
+
+#bubble2{
+animation-name: squareAnimation2;
+margin-left: 99%;
+animation-delay: 2s;
+transform: translateY(100vh)
+}
+
+#bubble3{
+  
+animation-name: squareAnimation3;
+margin-left: 25%;
+animation-delay: 6s;
+transform: translateY(100vh);
+}
+
+
+#bubble4{
+animation-name: squareAnimation4;
+margin-left: 60%;
+animation-delay: 8s;
+transform: translateY(100vh);
+}
+
+#bubble5{
+animation-name: squareAnimation1;
+animation-delay: 12s;
+transform: translateY(100vh);
+}
+
+#bubble6{
+animation-name: squareAnimation2;
+margin-left: 99%;
+animation-delay: 13s;
+transform: translateY(100vh);
+}
+
+#bubble7{
+animation-name: squareAnimation3;
+margin-left: 20%;
+animation-delay: 13s;
+transform: translateY(100vh);
+}
+
+#bubble8{
+animation-name: squareAnimation4;
+margin-left: 65%;
+animation-delay: 17s;
+transform: translateY(100vh);
+}
+
+#bubble9{
+animation-name: squareAnimation1;
+animation-delay: 20s;
+transform: translateY(100vh);
+}
+
+#bubble10{
+animation-name: squareAnimation2;
+margin-left: 105%;
+animation-delay: 23s;
+transform: translateY(100vh)
+}
+
+#bubble11{
+  
+animation-name: squareAnimation3;
+margin-left: 29%;
+animation-delay: 28s;
+transform: translateY(100vh);
+}
+
+
+.clock{
+  height: 25%;
+  width: 25vh;
+  position: absolute;
+  text-align: center;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+#clock{
+ margin-top: 40%
+}
+
+
+.container{
+ max-width: 33vw;
+height: 33vh;
+  margin-left: 3.5%;
+  margin-top: 10%;
+}
+
+a img{
+width: 10vw;
+height: 10vw;
+z-index: -2;
+}
+
+
+img{
+  z-index: -3;
+}
