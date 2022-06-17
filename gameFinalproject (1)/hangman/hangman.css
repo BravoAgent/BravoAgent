@@ -1,0 +1,134 @@
+/* css for the animated gradients were found at https://www.gradient-animator.com/ */
+/* fonts are from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+
+body {
+    font-family: 'Macondo', cursive;
+    background: linear-gradient(279deg, #0fb288, #c11212, #155274, #63bdf0, #ddee53);
+    background-size: 1000% 1000%;
+    overflow: hidden;
+
+    -webkit-animation: AnimationName 54s ease infinite;
+    -moz-animation: AnimationName 54s ease infinite;
+    -o-animation: AnimationName 54s ease infinite;
+    animation: AnimationName 54s ease infinite;
+  
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 58%}
+    50%{background-position:100% 43%}
+    100%{background-position:0% 58%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 58%}
+    50%{background-position:100% 43%}
+    100%{background-position:0% 58%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 58%}
+    50%{background-position:100% 43%}
+    100%{background-position:0% 58%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 58%}
+    50%{background-position:100% 43%}
+    100%{background-position:0% 58%}
+}
+
+th{
+  font-family: 'Koulen', cursive;
+  font-size: 3vh;
+  padding: 25px;
+  margin-right: 500px;
+  }
+
+button{
+  font-family: 'Macondo', cursive;
+  font-size: 2.5vh;
+  width:4rem;
+  height:4rem;
+  padding: 2px;
+  align-items: center; 
+  margin:2px;
+    background: linear-gradient(270deg, #ff8d09, #03f74d, #1c3492, #00d797, #5f0a7f);
+    background-size: 1000% 1000%;
+ border-radius: 10px;
+  
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+   
+}
+
+button:disabled{
+background:#eb6734
+}
+
+
+#playAgainButton{
+  font-family: 'Macondo', cursive;
+  font-size:5vh;
+  width: 60%;
+    background: linear-gradient(270deg, #7f03f7, #f7d203);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+
+
+.playButton{
+  font-family: 'Macondo', cursive;
+  width: 50%;
+  background-color: #e60063;
+  font-size: 4vh;
+}
+
+#theWordWas{
+  font-family: 'Macondo', cursive;
+ font-size: 60px
+}
+
+#guessNoti{
+  font-size: 6vh;
+}
+
+img{
+  max-height: 10%;
+  max-width: 10%
+}
+
+
+.inWord:disabled{
+  background: #34eb9b;
+}
+
+nav{
+  width: 98vw;
+  height: 5vh;
+  /*background: ##052623*/
+}
+
+nav a{
+text-align: center;
+vertical-align: middle;
+line-height: 5vh;  
+/*background:#03524a;*/
+padding: .5vh 5vw; 
+font-family: 'Fredoka One', cursive;
+color: black;
+}
+
+
+nav a:hover{
+box-shadow: 0;
+color:red; 
+}
+
